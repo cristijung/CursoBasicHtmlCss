@@ -1,0 +1,79 @@
+
+/*Seletor de TAG*/
+p {
+    color: #f00;
+  }
+
+/*Seletor de Classe*/
+.destacado {
+    background-color: #f00;
+  }
+  
+/*Seletor ID*/
+#cabecalho {
+    font-size: 24px;
+  }
+
+/*Seletor de Pseudo-Classe*/
+a:hover {
+    text-decoration: underline;
+  }
+
+/*Seletor de Pseudo-Elemento*/
+p::first-letter {
+    font-size: 24px;
+  }
+  
+/*Seletor de Descendente*/ 
+ul li {
+    list-style-type: square;
+  }
+
+/*Seletor de Filho direto*/ 
+nav > ul {
+    margin: 0;
+  }
+ 
+/*Seletor de Atributo*/
+a[href^="https"] {
+    color: green;
+  }
+
+/*Posicionamento  Estático */
+.elemento-um {
+    position: static;
+    background-color: #f0f0f0;
+  }
+
+/*Posicionamento Relativo*/
+.elemento-dois {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    background-color: #f0f0f0;
+  }
+
+/*Posicionamento Absoluto*/
+.pai {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #e0e0e0;
+  }
+
+  .filho {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: #f0f0f0;
+  }
+  
+/*Posicionamento Fixed*/
+.elemento-tres {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #f0f0f0;
+  }
+
+  
