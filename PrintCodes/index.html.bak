@@ -43,7 +43,6 @@
               </fieldset>
             </form>
             <hr/>
-			
             <!--FLEXBOX-->
             <div class="container">
               <div class="box">Div 1</div>
@@ -52,8 +51,6 @@
           <div class="box3">Div 3</div>
           <!--TERMINA FLEXBOX-->
           <hr/>
-		  
-		  
           <!--TABELAAAAA--><table>
         <thead>
           <tr>
@@ -88,8 +85,6 @@
       </tfoot>
   </table>
   <!--finalizando TABELA-->
-  
-  
           </article>
         </section>
       </main>
