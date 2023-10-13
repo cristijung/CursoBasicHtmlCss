@@ -58,3 +58,60 @@ tfoot {
   background-color: #e74c3c;
   color: #fff;
 }
+
+/*ESTILIZAÇÃO FORMULÁRIO*/
+form {
+  font-family: Arial, sans-serif;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+fieldset {
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+legend {
+  font-weight: bold;
+  color: #3498db;
+}
+
+p {
+  margin: 10px 0;
+}
+
+label {
+  display: block;
+  padding: 10px;
+  background-color: #fff;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:checked + label {
+  border-color: #2077b4;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2077b4;
+}

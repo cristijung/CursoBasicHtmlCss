@@ -1,0 +1,57 @@
+/*ESTILIZAÇÃO FORMULÁRIO*/
+form {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  fieldset {
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  legend {
+    font-weight: bold;
+    color: #3498db;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="radio"]:checked + label {
+    background-color: #2077b4;
+  }
+  
+  button {
+    background-color: #022a45;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2077b4;
+  }
+  
