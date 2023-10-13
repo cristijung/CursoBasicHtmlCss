@@ -23,8 +23,7 @@
         Área principal do site
         <section>
           <article>
-           
-		   <h2>Formulário de Contato</h2>
+            <h2>Formulário de Contato</h2>
             <form>
               <fieldset>
                 <legend>Tamanho do suco de fruta</legend>
@@ -44,8 +43,6 @@
               </fieldset>
             </form>
             <hr/>
-			
-			
 			
             <!--FLEXBOX-->
             <div class="container">

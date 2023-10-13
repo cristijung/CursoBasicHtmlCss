@@ -1,36 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML & CSS - Aula 04</title>
-    <link href="./css/formato.css" rel="stylesheet"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link href="./css/formato.css" rel="stylesheet" />
+    <link href="./css/formulario-dois.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <section>
-        <header>
-            <div class="titulo">Meu WebSite</div>
-        </header>
-        <nav>
-            <div class="container navbar">
-                <a href="#">Home</a>
-                <a href="#">Sobre</a>
-                <a href="#">Contato</a>
-            </div>
-            </nav>
-        <main>
-            <section>
-                <div class="titulo">Formulário</div>  
-                
-                <br/>              
-            </section>
-        </main>
-        <footer>Rodapé do site</footer>
+      <header>
+        <div class="titulo">Meu WebSite</div>
+      </header>
+      <nav>
+        <div class="container navbar">
+          <a href="#">Home</a>
+          <a href="#">Sobre</a>
+          <a href="#">Contato</a>
+        </div>
+      </nav>
+      <main>
+        <section>
+          <div class="titulo">Formulários</div>
+          <form>
+            <fieldset>
+                <legend>Tamanho do Suco:</legend>
+
+                <p>
+                    <input type="radio" name="size" id="size_1" value="pequeno"/>
+                    <label for="size_1">Pequeno</label>
+                </p>
+
+                <p>
+                    <input type="radio" name="size" id="size_2" value="medio"/>
+                    <label for="size_2">Médio</label>
+                </p>
+
+                <p>
+                    <input type="radio" name="size" id="size_3" value="grande"/>
+                    <label for="size_3">Grande</label>
+                </p>
+                <button type="submit">Enviar</button> 
+            </fieldset>
+          </form>
+
+
+          <hr/>
+          <div class="content-form">
+            <span>Exemplo 2 de formulário</span>
+            <form>
+              <p>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Digite seu nome" required/>
+              </p>
+
+              <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Digite um email válido" required>
+              </p>
+
+              <p>
+                <label for="msg">Mensagem:</label>
+                <textarea id="msg" placeholder="Digite sua imagem"></textarea>
+              </p>
+
+              <p>
+                <label for="verificar">Marque uma seleção:</label>
+                <input type="checkbox" checked="checked" id="verificar" />
+              </p>
+
+              <p>
+                <label for="verificar">Selecione uma opção:</label>
+                <input type="radio" id="verificar" />              </p>
+
+              <p>
+                <input type="submit" value="Clique para enviar"/>
+              </p>
+
+            </form>
+          </div>
+          <br />
+        </section>
+      </main>
+      <footer>Rodapé do site</footer>
     </section>
-    
-    
-</body>
+  </body>
 </html>

@@ -89,6 +89,12 @@ th, thead, tfoot {
     color:#fff;
 }
 
-
+.content-form {
+    max-width: 80%;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 1%;
+}
 
 
